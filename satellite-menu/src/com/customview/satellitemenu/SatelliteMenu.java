@@ -85,6 +85,10 @@ public class SatelliteMenu extends FrameLayout {
 			totalSpacingDegree = typedArray.getFloat(R.styleable.SatelliteMenu_totalSpacingDegree, DEFAULT_TOTAL_SPACING_DEGREES);
 			closeItemsOnClick = typedArray.getBoolean(R.styleable.SatelliteMenu_closeOnClick, DEFAULT_CLOSE_ON_CLICK);
 			expandDuration = typedArray.getInt(R.styleable.SatelliteMenu_expandDuration, DEFAULT_EXPAND_DURATION);
+			Drawable menuDrawable = typedArray.getDrawable(R.styleable.SatelliteMenu_mainImage);
+			if(menuDrawable!=null){
+				imgMain.setImageDrawable(menuDrawable);
+			}
 			//float satelliteDistance = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 170, getResources().getDisplayMetrics());
 			typedArray.recycle();
 		}
