@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 import android.graphics.drawable.Drawable;
 import android.view.animation.Animation;

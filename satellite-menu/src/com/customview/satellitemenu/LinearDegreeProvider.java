@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 /**
  * Linearly distributes satellites in the given total degree.

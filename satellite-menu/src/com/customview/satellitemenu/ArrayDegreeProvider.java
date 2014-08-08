@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 /**
  * Provide the degree between each satellite as an array of degrees. Can be provided to 

@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -16,6 +16,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.ext.R;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;

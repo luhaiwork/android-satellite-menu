@@ -6,7 +6,10 @@ import java.util.List;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.ext.SatelliteMenu.SateliteClickedListener;
+
+import com.customview.satellitemenu.SatelliteMenu;
+import com.customview.satellitemenu.SatelliteMenu.SateliteClickedListener;
+import com.customview.satellitemenu.SatelliteMenuItem;
 
 public class SatelliteMenuActivity extends Activity {
     

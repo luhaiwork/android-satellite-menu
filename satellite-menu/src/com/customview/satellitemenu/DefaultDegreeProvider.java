@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 /**
  * Default provider for degrees between satellites. For number of satellites up to 3

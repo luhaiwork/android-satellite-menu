@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 /**
  * Interface for providing degrees between satellites. 

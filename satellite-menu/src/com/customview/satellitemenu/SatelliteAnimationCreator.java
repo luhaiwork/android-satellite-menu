@@ -1,4 +1,4 @@
-package android.view.ext;
+package com.customview.satellitemenu;
 
 import android.content.Context;
 import android.view.animation.AlphaAnimation;
